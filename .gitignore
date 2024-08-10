@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+src/assets/utils/style-guide.md
+src/assets/design
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
