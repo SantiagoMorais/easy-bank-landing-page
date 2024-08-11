@@ -1,12 +1,10 @@
+import { NavBar } from "@components/navBar";
+
 function App() {
   return (
-    <>
-      <div className="bg-red-500">
-        <p className="font-extralight text-blue-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis delectus quis, assumenda amet at temporibus tenetur tempora incidunt, mollitia commodi corporis enim eos ab facilis vero eligendi libero excepturi velit.
-        </p>
-      </div>
-    </>
+    <section className="flex items-center justify-center w-screen h-screen overflow-x-hidden">
+      <NavBar />
+    </section>
   );
 }
 
